@@ -1,6 +1,6 @@
 # Robotics Final Project
 The goal of this project was to have two ROS turtlebots play tic-tac-toe against eacother.
-Although it doesn not entirely work, the python game files are completely set up to work. No additional dependenscies need to be
+Although it does not entirely work, the python game files are completely set up to work. No additional dependencies need to be
 installed.
 # Files Overview
 The main driver file is [playGame.py](playGame.py), which contains the GoToPose() class and the Robot() class. GoToPose() is used for
@@ -14,8 +14,8 @@ being the map image.
 3. Run: ROS_NAMESPACE=robot_2 roslaunch turtlebot3_bringup turtlebot3_robot.launch multi_robot_name:="robot_2" set_lidar_frame_id:="robot_2/base_scan" on the second robot
 4. Run: rosrun tic-tac-toe run_gamev2.launch on host computer
 5. Set up the launched rviz by:
-    a. Changing project decription to: robot_1/description
-    b. Changing tf_prefix to: robot_1
-    c. Change topics to namespaced robot_1 topics, specifically the local and global cost maps
-    d. Add all fields for robot_2 and repeat previous steps
-7. 
+    1. Changing project decription to: robot_1/description
+    2. Changing tf prefix to: robot_1
+    3. Change topics to namespaced robot_1 topics, specifically the local and global cost maps
+    4. Add all fields for robot_2 and repeat previous steps
+6. Run [playGame.py](playGame.py)

@@ -18,4 +18,5 @@ being the map image.
     2. Changing tf prefix to: robot_1
     3. Change topics to namespaced robot_1 topics, specifically the local and global cost maps
     4. Add all fields for robot_2 and repeat previous steps
-6. Run [playGame.py](playGame.py)
+6. Locate the robots within rviz with 2d position estimate
+7. Run [playGame.py](playGame.py)
